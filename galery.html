@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The tea</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="galery.css">
+    </head>
+    <body>
+        <input type="checkbox" id="nav-toggle" hidden>
+        <nav class="nav">
+            <label for="nav-toggle" class="nav-toggle" onclick></label> 
+            <ul>
+                <li><a href="index.html">На головну</a>
+                <li><a href="galery.html">Галерея продуктів</a>
+                <li><a href="order.html">Замовити своє</a>
+                <li><a href="social.html">Наше місцерасположення</a>
+            </ul>
+        </nav>
+        <h1>Лімітована версія</h1>
+        <div class="dive">
+            <div class="row">
+                <div class="column">
+                  <img src="rabbit.jpg" alt="first" onclick="openImg(this);">
+                </div>
+                <div class="column">
+                  <img src="bear.jpg" alt="second" onclick="openImg(this);">
+                </div>
+                <div class="column">
+                    <img src="dog.jpg" alt="fifth" onclick="openImg(this);">
+                </div>
+                <div class="column">
+                  <img src="fox.jpg" alt="third" onclick="openImg(this);">
+                </div>
+                <div class="column">
+                  <img src="wolf.jpg" alt="fourth" onclick="openImg(this);">
+                </div>
+              </div>
+              <div class="container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg">
+              </div>
+        </div>
+        <h1>Версія з героями мультиків</h1>
+        <div class="dive1">
+            <div class="row1">
+                <div class="column1">
+                  <img src="rabbit.jpg" alt="first" onclick="openImg1(this);">
+                </div>
+                <div class="column1">
+                  <img src="bear.jpg" alt="second" onclick="openImg1(this);">
+                </div>
+                <div class="column1">
+                    <img src="dog.jpg" alt="fifth" onclick="openImg1(this);">
+                </div>
+                <div class="column1">
+                  <img src="fox.jpg" alt="third" onclick="openImg1(this);">
+                </div>
+                <div class="column1">
+                  <img src="wolf.jpg" alt="fourth" onclick="openImg1(this);">
+                </div>
+              </div>
+              <div class="container1">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg1">
+              </div>
+        </div>
+        <h1>Версія з героями фільмів</h1>
+        <div class="dive2">
+            <div class="row2">
+                <div class="column2">
+                  <img src="rabbit.jpg" alt="first" onclick="openImg2(this);">
+                </div>
+                <div class="column2">
+                  <img src="bear.jpg" alt="second" onclick="openImg2(this);">
+                </div>
+                <div class="column2">
+                    <img src="dog.jpg" alt="fifth" onclick="openImg2(this);">
+                </div>
+                <div class="column2">
+                  <img src="fox.jpg" alt="third" onclick="openImg2(this);">
+                </div>
+                <div class="column2">
+                  <img src="wolf.jpg" alt="fourth" onclick="openImg2(this);">
+                </div>
+              </div>
+              <div class="container2">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg2">
+              </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="social">
+                <a href="#">
+                    <img src="twitter.png" alt="twt" class="icons">
+                </a>
+                <a href="#">
+                    <img src="inst.png" alt="inst" class="icons">
+                </a>
+                <a href="#">
+                    <img src="facebook.png" alt="fcb" class="icons">
+                </a>
+            </div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">About us</a></li>
+                <li class="list-inline-item"><a href="#">Galery</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">The tea © 2023</p>
+        </footer>
+        <script src="galery.js"></script>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</html>

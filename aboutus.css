@@ -1,0 +1,32 @@
+.krest{
+    height: 74px;
+    position: absolute;
+    margin-left: -77%;
+    margin-top: 97%;
+}
+.paketick{
+    height: 200px;
+}
+.pcg{
+    position: absolute;
+}
+
+.p{
+    font-family: cursive;
+    margin-left: 155px;
+}
+.opys{
+    font-family: cursive;
+    margin-left: 210px;
+}
+
+.white{
+    background-color: white;
+    max-width: 70%;
+    position: relative;
+    margin-left: 10%;
+    max-height: 100%;
+}
+.head{
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.mapouter{
+    position:relative;
+    text-align:center;
+    height:507px;
+    width:1080px;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:507px;
+    width: 1279px;
+}
